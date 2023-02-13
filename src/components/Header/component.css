@@ -1,0 +1,45 @@
+.component__container {
+    
+   display: flex;
+   
+   align-items: center;
+   margin: 10px 0;
+
+    
+}
+
+.component__img {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-right: 30px;
+    
+    
+}
+.component__text {
+    grid-area: 1 / 2 / 2 / 3;
+    
+   
+}
+.component__text big {
+    color: #aaa;
+    font-size: 2rem;
+    
+   
+
+}
+.component__text h3 {
+    font-weight: 800;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+.component__text p {
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+@media screen and (max-width:1200px) {
+    .component__text p {
+        line-height: 20px;
+    }
+}
